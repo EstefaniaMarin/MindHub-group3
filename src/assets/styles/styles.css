@@ -1,13 +1,57 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    color: white;
 }
 
 /* fuente: https://uigradients.com/#Nighthawk /*/
 .background-color {
-    background: #2980b9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-  } 
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.logo {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul#nav_item li a {
+    position: relative;
+    font-weight: bold;
+    color: black;
+    margin: 0px 15px;
+}
+
+ul#nav_item li a:after {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: gray;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);
+}
+
+ul#nav_item li a:hover:after {
+    opacity: 1;
+    transform: translateY(15px);
+}
