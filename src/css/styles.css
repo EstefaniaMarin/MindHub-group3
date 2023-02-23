@@ -1,17 +1,16 @@
-.nav-link { 
+.nav-link {
     color: white;
     background-color: #f70a42aa;
     border-radius: 5px;
 }
 
-.active{
+.active {
     color: rgb(0, 0, 0);
     background-color: #f70a42aa;
     border-radius: 5px;
-
 }
 
-.nav{
+.nav {
     margin-top: 10px;
     margin-right: 30px;
     gap: 30px;
@@ -24,7 +23,7 @@
     margin-top: 2px;
 }
 
-.container-form-img { 
+.container-form-img {
     display: flex;
     justify-content: space-between;
 }
