@@ -1,37 +1,31 @@
-.nav-link {
-    color: white;
-    background-color: #f70a42aa;
-    border-radius: 5px;
+body {
+    overflow-x: hidden;
 }
 
-.active {
-    color: rgb(0, 0, 0);
-    background-color: #f70a42aa;
-    border-radius: 5px;
+
+/* ================MENU================== */
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.nav {
-    margin-top: 10px;
-    margin-right: 30px;
-    gap: 30px;
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.logo {
-    height: 90px;
-    width: 90px;
-    margin-left: 30px;
-    margin-top: 2px;
+.navbar-collapse {
+    flex-grow: 0;
 }
 
-.container-form-img {
-    display: flex;
-    justify-content: space-between;
+.navbar-brand {
+    width: 15%;
+    height: 7%;
 }
 
-.text-start {
-    display: flex;
-    justify-content: space-between;
-}
+
+/* ================FOOTER================== */
 
 .container {
     margin: 0;
