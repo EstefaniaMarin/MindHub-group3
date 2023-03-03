@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Stats</title>
     <link rel="shortcut icon" href="../assets/images/favicon-page.ico">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-secondary bg-opacity-75 p-3" id="menu">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../assets/images/Logo Amazing Events.png" alt="" class="img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/images/LogoAmazingEvents.png" class="img-fluid" alt="Logo Amazing Events">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav_item">
                         <li class="nav-item">
@@ -38,7 +42,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./details.html">Details</a>
-                        </li>   
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Stats</a>
                         </li>
@@ -55,92 +59,128 @@
     <div class="container">
         <div class="row p-5 ">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card shadow">
                     <div class="card-header text-dark">
-                        Stats
+                        <b>Stats</b>
                     </div>
 
                     <div class="card-body">
-                        <table class="table table-striped table-bordered table-hover"> 
+                        <table class="table table-striped table-bordered table-hover shadow">
                             <thead>
-                                <tr >
-                                    <th>
-                                        Events Statistics  
-                                    </th>
-
+                                <tr>
+                                    <td colspan="3">
+                                        <b> Events Statistics</b>
+                                    </td>
                                 </tr>
-                               
+
+
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td  colspan="1">
+                                    <td>
                                         Events with the highest percentage of attendance
                                     </td>
-                                    <td  colspan="1">
+                                    <td>
                                         Events with the lowest percentage of attendance
                                     </td>
-                                    <td  colspan="1">
+                                    <td>
                                         Event with larger capacity
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td></td>
+                                <tr class="alto-fila">
+                                    <td rowspan="1" colspan="1">
+                                    </td>
+                                    <td rowspan="1" colspan="1">
+                                    </td>
+                                    <td rowspan="1" colspan="1">
+                                    </td>
                                 </tr>
-                              
-                                <tr>    
-                                    <th>
-                                        Upcoming events Statistics by category
-                                    </th>
 
+                                <tr>
+                                    <td rowspan="1" colspan="3">
+                                        <b>Upcoming events Statistics by category </b>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Categories</td>
+                                    <td>Revenues</td>
+                                    <td>Percentage of attendance</td>
+                                </tr>
+                                <tr class="alto-fila">
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr class="alto-fila">
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr class="alto-fila">
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td colspan="3">
+                                        <b> Past Events by statistic by category</b>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td colspan="1">Categories</td>
                                     <td colspan="1">Revenues</td>
                                     <td colspan="1">Percentage of attendance</td>
                                 </tr>
-                                <tr>
+                                <tr class="alto-fila">
                                     <td>
-                                        
                                     </td>
-
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                </tr>
-
-
-                                <tr>    
-                                    <th>
-                                        Past Events by statistic by category
-                                    </th>
-
-                                </tr>
-                                <tr>
-                                    <td colspan="1">Categories</td>
-                                    <td colspan="1">Revenues</td>
-                                    <td colspan="1">Percentage of attendance</td>
-                                </tr>
-                                <tr>
                                     <td>
-                                        
                                     </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr class="alto-fila">
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr class="alto-fila">
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr class="alto-fila">
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
 
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-          
+
         </div>
     </div>
 
@@ -149,39 +189,45 @@
         <!-- Grid container -->
         <div class="container p-12 pb-0">
             <!-- Section: Social media -->
-            <section class="mb-4 bg-secondary bg-opacity-75">
-                <section class="text-start p-3 text-white">
+            <div class="mb-4 bg-secondary bg-opacity-75">
+                <div class="text-start p-3 text-white">
                     <div>
                         <!-- Facebook -->
-                        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="bi bi-facebook"></i>
-                      </a>
+                        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998" href="#!"
+                            role="button"><i class="bi bi-facebook"></i>
+                        </a>
 
                         <!-- Twitter -->
-                        <a class="btn text-white btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="bi bi-twitter"></i>
-                      </a>
+                        <a class="btn text-white btn-floating m-1" style="background-color: #55acee" href="#!"
+                            role="button"><i class="bi bi-twitter"></i>
+                        </a>
 
                         <!-- Google -->
-                        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="bi bi-google"></i>
-                      </a>
+                        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39" href="#!"
+                            role="button"><i class="bi bi-google"></i>
+                        </a>
 
                         <!-- Instagram -->
-                        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="bi bi-instagram"></i>
-                      </a>
+                        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                            role="button"><i class="bi bi-instagram"></i>
+                        </a>
 
                         <!-- Linkedin -->
-                        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="bi bi-linkedin"></i>
-                      </a>
+                        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca" href="#!"
+                            role="button"><i class="bi bi-linkedin"></i>
+                        </a>
 
                         <!-- Github -->
-                        <a class="btn text-white btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="bi bi-github"></i>
-                      </a>
+                        <a class="btn text-white btn-floating m-1" style="background-color: #333333" href="#!"
+                            role="button"><i class="bi bi-github"></i>
+                        </a>
                     </div>
                     © 2023
-                </section>
-            </section>
+                </div>
+            </div>
             <!-- Section: Social media -->
 
-       
+
 
         </div>
     </footer>
