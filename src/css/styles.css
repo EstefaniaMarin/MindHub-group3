@@ -81,3 +81,14 @@ ul#nav_item li a:hover:after {
   width: 100%;
   height: 150px;
 }
+
+.alto-fila{
+  height: 30px;
+}
+
+tr{
+  border: 1px  solid black;
+}
+td{
+  border: 1px  solid black;
+}
