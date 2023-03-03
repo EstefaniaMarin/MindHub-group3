@@ -80,11 +80,11 @@ ul#nav_item li a:hover:after {
 }
 
 .cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 70px 0;
 }
 
 .container-category {
