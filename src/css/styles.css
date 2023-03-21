@@ -124,3 +124,17 @@
     td {
         border: 1px solid black;
     }
+
+    /*   
+    CUSTOM CSS PAGE 1
+    */
+
+    .card-text {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.card img {
+  height: 200px; /* altura fija */
+  object-fit: cover; /* para que la imagen se ajuste al tamaño del contenedor */
+}
