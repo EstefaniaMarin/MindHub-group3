@@ -3,7 +3,7 @@ const ArrayData = [{
     "eventos": [
         {
             'id': 1,
-            "image": '../assets/images/Cine7.jpg',
+            "image": 'https://loremflickr.com/300/240/conciert?ramdom=1',
             "name": "Collectivities Party",
             "date": "2021-12-12",
             "description": "Enjoy your favourite dishes, from different countries, in a unique event for the whole family.",
@@ -15,7 +15,7 @@ const ArrayData = [{
         },
         {
             'id': 2,
-            "image": '../assets/images/Conciertodemusica1.jpg',
+            "image": 'https://loremflickr.com/310/240/conciert?ramdom=1',
             "name": "Korean style",
             "date": "2021-08-12",
             "description": "Enjoy the best Korean dishes, with international chefs and awesome events.",
@@ -27,7 +27,7 @@ const ArrayData = [{
         },
         {
             'id': 3,
-            "image": "../assets/images/Maraton3.jpg",
+            "image": "https://loremflickr.com/320/240/conciert?ramdom=1",
             "name": "Jurassic Park",
             "date": "2021-11-02",
             "description": "Let's go meet the biggest dinosaurs in the paleontology museum.",
@@ -39,7 +39,7 @@ const ArrayData = [{
         },
         {
             'id': 4,
-            "image": "../assets/images/Salidaalmuseo5.jpg",
+            "image": "https://loremflickr.com/330/240/conciert?ramdom=1",
             "name": "Parisian Museum",
             "date": "2022-11-02",
             "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
@@ -51,7 +51,7 @@ const ArrayData = [{
         },
         {
             'id': 5,
-            "image": "../assets/images/Salidaalmuseo5.jpg",
+            "image": "https://loremflickr.com/340/240/conciert?ramdom=1",
             "name": "Parisian 123",
             "date": "2022-11-02",
             "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
@@ -63,7 +63,7 @@ const ArrayData = [{
         },
         {
             'id': 6,
-            "image": "../assets/images/Salidaalmuseo5.jpg",
+            "image": "https://loremflickr.com/350/240/conciert?ramdom=1",
             "name": "Parisian 41231",
             "date": "2022-11-02",
             "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
@@ -75,7 +75,7 @@ const ArrayData = [{
         },
         {
             'id': 7,
-            "image": "../assets/images/fotoprueba1.jpeg",
+            "image": "https://loremflickr.com/360/240/conciert?ramdom=1",
             "name": "Parisian 41231",
             "date": "2022-11-02",
             "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
@@ -88,7 +88,7 @@ const ArrayData = [{
         ,
         {
             'id': 8,
-            "image": "../assets/images/fotoprueba2.jpeg",
+            "image": "https://loremflickr.com/370/240/conciert?ramdom=1",
             "name": "Parisian 41231",
             "date": "2022-11-02",
             "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
@@ -100,7 +100,98 @@ const ArrayData = [{
         },
         {
             'id': 9,
-            "image": "../assets/images/fotoprueba3.jpeg",
+            "image": "https://loremflickr.com/380/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+        
+        {
+            'id': 10,
+            "image": "https://loremflickr.com/390/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+        
+        {
+            'id': 11,
+            "image": "https://loremflickr.com/400/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+        
+        {
+            'id': 12,
+            "image": "https://loremflickr.com/401/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+
+        {
+            'id': 13,
+            "image": "https://loremflickr.com/402/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+
+        {
+            'id': 14,
+            "image": "https://loremflickr.com/403/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+
+        {
+            'id': 15,
+            "image": "https://loremflickr.com/404/240/conciert?ramdom=1",
+            "name": "Parisian 41231",
+            "date": "2022-11-02",
+            "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
+            "category": "Museum",
+            "place": "Paris",
+            "capacity": 8200,
+            "estimate": 8200,
+            "price": 3500
+        },
+
+        {
+            'id': 16,
+            "image": "https://loremflickr.com/405/240/conciert?ramdom=1",
             "name": "Parisian 41231",
             "date": "2022-11-02",
             "description": "A unique tour in the city of lights, get to know one of the most iconic places.",
@@ -113,49 +204,83 @@ const ArrayData = [{
     ]
 }]
 
-const Card = document.getElementById('cards');
-const Slider = document.getElementById('slider');
 
-let newArrayCard = [];
-let newArraySlider = [];
+// Swiper
+var swiper = new Swiper('.swiper-container', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // init: false,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
 
-function CargarCarausel() {
+    breakpoints: {
+        620: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        680: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        920: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+        1240: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+        },
+    }
+})
 
-    return ArrayData.forEach(data => {
 
-        for (let i = 0; i < data.eventos.length; i++) {
-            let contador = i;
 
-            const SliderTemplate = `
-            <button type="button" data-bs-target="#carouselExampleIndicators" class="active" data-bs-slide-to="${contador}"
-            ></button>`
 
-            const CardTemplate = `
-            <div class="carousel-item" style="height: 500px;">
-            <img src="${data.eventos[i].image}" class="d-block w-100" alt="${data.eventos[i].name}">
+function Carousel() {
 
-            <div class="carousel-caption d-none d-md-block">
-              <h5>${data.eventos[i].name}</h5>
-              <p>${data.eventos[i].description}</p>
-              <a type="button" class="btn btn-primary" href="./details.html"  target="_blank" onclick="detalleCard(${data.eventos[i].id})">View Details</a>
+    const cards = document.querySelector('#cards')
+    const card = data.eventos[i];
+
+    cards.innerHTML += `
+    <div class="swiper-container mySwiper">
+    <div class="swiper-wrapper" >
+    </div>
             </div>
-          </div>
-         `
+    <div class="swiper-slide">
+    <img src="${card.image}" alt="">
+    <div class="card-description">
+      <div class="card-title">
+        <h4>${card.name}</h4>
+      </div>
+      <div class="card-text">
+        <p>${card.description}</p>
+      </div>
+      <div class="card-link">
+        <a href="../pages/details.html" target="_blank" onclick="detalleCard(${card.id})">Ver más</a>
+      </div>
+    </div>
+    
+    </div>
+    `
 
-            newArraySlider.push(SliderTemplate)
-            newArrayCard.push(CardTemplate)
+    ArrayData.forEach(data => {
+        for (let i = 0; i < data.eventos.length; i++) {
 
+           
+            console.log(data.eventos[i]);
         }
 
-        Slider.innerHTML = newArraySlider;
-        Card.innerHTML = newArrayCard;
-
-        //console.log(newArrayCard);
-        //console.log(newArraySlider);
+        
     })
-};
+}
 
-
+console.log(Carousel(ArrayData));
 
 const details_card = document.querySelector('details_card');
 
@@ -170,6 +295,5 @@ function detalleCard(id) {
         }
 
     })
-    
+
 }
-console.log(CargarCarausel(ArrayData))
