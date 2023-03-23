@@ -204,6 +204,22 @@ const ArrayData = [{
     ]
 }]
 
+function newCard(evento) {
+    
+    let divForCard = document.createElement('div');
+    divForCard.className = 'col-lg-3 col-sm-6';
+    divForCard.innerHTML = `
+    <div class="card" >
+    <img src="${evento.image}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Title</h5>
+      <p class="card-text">Description text</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+    `
+
+}
 
 function Carousel(eventos) {
 
