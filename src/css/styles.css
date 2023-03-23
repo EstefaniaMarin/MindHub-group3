@@ -1,126 +1,285 @@
-    body {
-        overflow-x: hidden;
-    }
-    /* ================MENU================== */
+.html {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-height: 100vh;
+
+    background: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+}
+
+/* ================MENU================== */
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-brand {
+    width: 15%;
+    height: 7%;
+}
+
+ul#nav_item li a {
+    position: relative;
+    font-weight: bold;
+    color: white;
+    margin: 0px 15px;
+}
+
+ul#nav_item li a:after {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);
+}
+
+ul#nav_item li a:hover:after {
+    opacity: 1;
+    transform: translateY(15px);
+}
+
+.btn-danger {
+    background-color: #DB0068;
+}
+
+/* ================CONTACT PAGE================== */
+
+.icon {
+    font-size: 7rem;
+    color: #DB0068;
+}
+
+.form-label {
+    font-size: 1.2rem;
+}
+
+/* ================DETAILS PAGE================== */
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 0px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    color: rgb(177, 177, 177);
+    font-size: .8rem;
+}
+
+.card p {
+    line-height: 1.4rem;
+    text-align: justify;
+}
+
+/* ================FOOTER================== */
+
+.container1 {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 70px 0;
+}
+
+.container-category {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.check-container {
+    display: flex;
+    gap: 30px;
+    padding-left: 15px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+}
+
+.alto-fila {
+    height: 30px;
+}
+
+tr {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+td {
+    border: 1px solid black;
+}
+
+/*   
+    CUSTOM CSS PAGE 1
+    */
+
+.card-text {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+
+.icon_detail{
+    font-size: xx-large;
+}
+
+/* Swiper Css */
+
+body {
+    width: 100%;
+
+    height: 100%;
+  }
+
+  .contianer{
+    width: 100%;
+
+    padding: 10px 40px;    
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* Details Card */
+
+.card_details {
+    height: 100%;
+    width: 100%;
+    background: center center/cover;
+    background-size: center center/cover;
+}
+
+
+
+
+/* Carousel Home*/
+
+.img_event1 {
+    width: 100%;
+    height: 200px;
+    background: url("../assets/images/eventos_ejecutivos.jpg") no-repeat center center/cover;
+}
+
+
+.img_event2 {
+    width: 100%;
+    height: 200px;
+    background: url("../assets/images/eventos_para_bodas.jpg") no-repeat center center/cover;
+}
+
+.img_event3 {
+    width: 100%;
+    height: 200px;
+    background: url("../assets/images/eventos_musicales.jpg") no-repeat center center/cover;
+}
+
+.body{
+    overflow: hidden !important; 
+}
+.container{
+    width: 90% !important;
+  
+    padding: 10px 40px !important;
+  }
+  .container .swiper-container{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .container .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: start;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+   
+  }
+  .container .swiper-slide img{
+     display: block;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+  
+  }
+  .container .swiper-slide .card-description{
+      padding:1rem 1rem;
+  }
+  .container .swiper-slide .card-title,.container .swiper-slide .card-text{
+     margin-bottom: .5rem;
+  }
+  .container .swiper-slide .card-link{
+     text-align: center;
     
-    #menu li>a {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    #menu form>button {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    .navbar-collapse {
-        flex-grow: 0;
-    }
-    
-    .navbar-brand {
-        width: 15%;
-        height: 7%;
-    }
-    
-    ul#nav_item li a {
-        position: relative;
-        font-weight: bold;
-        color: white;
-        margin: 0px 15px;
-    }
-    
-    ul#nav_item li a:after {
-        position: absolute;
-        bottom: 7px;
-        left: 0px;
-        width: 100%;
-        height: 4px;
-        background-color: white;
-        content: "";
-        opacity: 0;
-        transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
-        transform: translateY(20px);
-    }
-    
-    ul#nav_item li a:hover:after {
-        opacity: 1;
-        transform: translateY(15px);
-    }
-    
-    .btn-danger {
-        background-color: #DB0068;
-    }
-    /* ================CONTACT PAGE================== */
-    
-    .icon {
-        font-size: 7rem;
-        color: #DB0068;
-    }
-    
-    .form-label {
-        font-size: 1.2rem;
-    }
-    /* ================DETAILS PAGE================== */
-    
-    .card-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-bottom-right-radius: 0px;
-    }
-    
-    .card h3 {
-        text-transform: uppercase;
-        color: rgb(177, 177, 177);
-        font-size: .8rem;
-    }
-    
-    .card p {
-        line-height: 1.4rem;
-        text-align: justify;
-    }
-    /* ================FOOTER================== */
-    
-    .container {
-        margin: 0;
-        max-width: 100%;
-        padding: 0;
-    }
-    
-    .cards-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 70px;
-        padding: 70px 0;
-    }
-    
-    .container-category {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        padding-top: 10px;
-    }
-    
-    .check-container {
-        display: flex;
-        gap: 30px;
-        padding-left: 15px;
-    }
-    
-    .card-img-top {
-        width: 100%;
-        height: 150px;
-    }
-    
-    .alto-fila {
-        height: 30px;
-    }
-    
-    tr {
-        border: 1px solid black;
-    }
-    
-    td {
-        border: 1px solid black;
-    }
+  }
+  .container .swiper-slide .card-link a{
+      text-decoration: none;
+      color: #1d6ce2;
+  }
+  .swiper-button-next{
+      right: 26px !important;
+  }
+  .swiper-button-prev{
+      left: 26px !important;
+  }
