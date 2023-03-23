@@ -205,79 +205,10 @@ const ArrayData = [{
 }]
 
 
-// Swiper
-var swiper = new Swiper('.swiper-container', {
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-    },
-    slidesPerView: 1,
-    spaceBetween: 10,
-    // init: false,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+function Carousel(eventos) {
 
-    breakpoints: {
-        620: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
-        680: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-        },
-        920: {
-            slidesPerView: 3,
-            spaceBetween: 40,
-        },
-        1240: {
-            slidesPerView: 4,
-            spaceBetween: 50,
-        },
-    }
-})
+    console.log(eventos);
 
-
-
-
-function Carousel() {
-
-    const cards = document.querySelector('#cards')
-    const card = data.eventos[i];
-
-    cards.innerHTML += `
-    <div class="swiper-container mySwiper">
-    <div class="swiper-wrapper" >
-    </div>
-            </div>
-    <div class="swiper-slide">
-    <img src="${card.image}" alt="">
-    <div class="card-description">
-      <div class="card-title">
-        <h4>${card.name}</h4>
-      </div>
-      <div class="card-text">
-        <p>${card.description}</p>
-      </div>
-      <div class="card-link">
-        <a href="../pages/details.html" target="_blank" onclick="detalleCard(${card.id})">Ver más</a>
-      </div>
-    </div>
-    
-    </div>
-    `
-
-    ArrayData.forEach(data => {
-        for (let i = 0; i < data.eventos.length; i++) {
-
-           
-            console.log(data.eventos[i]);
-        }
-
-        
-    })
 }
 
 console.log(Carousel(ArrayData));
