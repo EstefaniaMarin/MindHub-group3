@@ -2,26 +2,47 @@
     height: 100%;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- 
-.body {
+}
+
+
+.background-color {
+    background: #136a8a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    background: #136a8a;
+    margin: 0;
+  margin-bottom: 40px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background: #eee;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    min-height: 100vh;
 }
+
+footer {
+    margin-top: 3%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
 
 /* ================MENU================== */
 
@@ -47,7 +68,7 @@
 ul#nav_item li a {
     position: relative;
     font-weight: bold;
-    color: white;
+    color: snow;
     margin: 0px 15px;
 }
 
@@ -84,6 +105,10 @@ ul#nav_item li a:hover:after {
     font-size: 1.2rem;
 }
 
+label {
+    color: white;
+}
+
 /* ================DETAILS PAGE================== */
 
 .card-img {
@@ -100,6 +125,7 @@ ul#nav_item li a:hover:after {
 }
 
 .card p {
+    margin-bottom: 0;
     line-height: 1.4rem;
     text-align: justify;
 }
@@ -155,49 +181,25 @@ td {
     */
 
 .card-text {
-    max-height: 100px;
-    overflow-y: auto;
+    height: 130px;
 }
 
+ol.carousel-indicators {
+    top: 100%;
+}
 
-.icon_detail{
+li.list-group-item {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon_detail {
     font-size: xx-large;
 }
 
-/* Swiper Css */
-
-body {
-    width: 100%;
-
-    height: 100%;
-  }
-
-  .contianer{
-    width: 100%;
-
-    padding: 10px 40px;    
-  }
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.icon_view {
+    font-size: x-large;
+}
 
 /* Details Card */
 
@@ -208,78 +210,23 @@ body {
     background-size: center center/cover;
 }
 
-
-
-
 /* Carousel Home*/
 
 .img_event1 {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: url("../assets/images/eventos_ejecutivos.jpg") no-repeat center center/cover;
 }
 
 
 .img_event2 {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: url("../assets/images/eventos_para_bodas.jpg") no-repeat center center/cover;
 }
 
 .img_event3 {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: url("../assets/images/eventos_musicales.jpg") no-repeat center center/cover;
 }
-
-.body{
-    overflow: hidden !important; 
-}
-.container{
-    width: 90% !important;
-  
-    padding: 10px 40px !important;
-  }
-  .container .swiper-container{
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .container .swiper-slide {
-    position: relative;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    border-radius: 15px;
-    text-align: start;
-    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
-   
-  }
-  .container .swiper-slide img{
-     display: block;
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-  
-  }
-  .container .swiper-slide .card-description{
-      padding:1rem 1rem;
-  }
-  .container .swiper-slide .card-title,.container .swiper-slide .card-text{
-     margin-bottom: .5rem;
-  }
-  .container .swiper-slide .card-link{
-     text-align: center;
-    
-  }
-  .container .swiper-slide .card-link a{
-      text-decoration: none;
-      color: #1d6ce2;
-  }
-  .swiper-button-next{
-      right: 26px !important;
-  }
-  .swiper-button-prev{
-      left: 26px !important;
-  }
