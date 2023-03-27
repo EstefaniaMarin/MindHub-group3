@@ -199,7 +199,6 @@ const ArrayData = {
         'estimate': 57000,
         'price': 20
     }
-
     ]
 }
 
@@ -208,9 +207,7 @@ const ArrayData = {
 function newCard(evento) {
     let divForCard = document.createElement("div");
     divForCard.className = "col-lg-3 col-sm-6";
-    divForCard.innerHTML = `
-
-    <div class="card card-img" style="width: 18rem;">
+    divForCard.innerHTML = `<div class="card card-img" style="width: 18rem;">
   <img class="card-img-top" src="${evento.image}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">  ${evento.name}</h5>
@@ -226,8 +223,7 @@ function newCard(evento) {
   <div class="card-body">
     <a class="btn background-color text-light w-100 "  data-toggle="tooltip" data-placement="bottom" title="View Details - ${evento.name}" href="./details.html" target='_blank' onclick="detalleCard(${evento.id})"> <i class="bi bi-send-check-fill icon_view"></i></a>
   </div>
-</div>
-    `;
+</div>`;
     return divForCard;
 }
 
@@ -270,7 +266,7 @@ function tarjetasHome() {
 const details_card = document.querySelector("details_card");
 
 function detalleCard(id) {
-    console.log('CARGANDO DATA EN LOCALSTORAGE:', id);
+   // console.log('CARGANDO DATA EN LOCALSTORAGE:', id);
     for (let i = 0; i < ArrayData.eventos.length; i++) {
         if (ArrayData.eventos[i].id === parseInt(id)) {
             localStorage.clear();
@@ -282,5 +278,5 @@ function detalleCard(id) {
     }
 }
 
-console.log(newCard(ArrayData.eventos));
+newCard(ArrayData.eventos);
 tarjetasHome();

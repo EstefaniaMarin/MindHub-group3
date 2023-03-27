@@ -243,3 +243,73 @@ li.list-group-item {
     height: 150px;
     background: url("../assets/images/eventos_musicales.jpg") no-repeat center center/cover;
 }
+
+/* PAST AND UPCOMING EVENTS */
+
+.card_events {
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color:white;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .img-card-container {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .category {
+    background-color: #FFB347;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFB347;
+  }
+  
+  .capacity {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #FFB347;
+    border-radius: 5px;
+  }
